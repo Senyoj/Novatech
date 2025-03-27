@@ -415,7 +415,7 @@ useEffect(() => {
   
   const fetchData = async () => {
     try {
-      const response = await fetch(`/api/data/${id}`, { signal });
+      const response = await fetch(\`/api/data/\${id}\`, { signal });
       const data = await response.json();
       setData(data);
     } catch (err) {
@@ -502,7 +502,7 @@ function useFetch(url) {
         const response = await fetch(url, { signal: controller.signal });
         
         if (!response.ok) {
-          throw new Error(`Error: ${response.status}`);
+          throw new Error(\`Error: \${response.status}\`);
         }
         
         const result = await response.json();
@@ -806,7 +806,7 @@ const userSchema = new mongoose.Schema(
       lowercase: true,
       trim: true,
       match: [
-        /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/,
+        /^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$/,
         'Please provide a valid email',
       ],
     },
@@ -1197,7 +1197,7 @@ Remember to keep your API secure by validating inputs, handling errors properly,
     date: "April 22, 2023",
     views: 1456,
     related: ["3", "7", "9"]
-  },
+  }
 ];
 
 // Helper function to get posts by category
