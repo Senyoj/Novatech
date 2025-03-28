@@ -10,7 +10,7 @@ const About = () => {
         <div className="mx-auto max-w-3xl">
           {/* Page header */}
           <div className="mb-12 text-center">
-            <h1 className="font-heading text-3xl md:text-4xl font-bold mb-4">About TechBlog</h1>
+            <h1 className="font-heading text-3xl md:text-4xl font-bold mb-4">About NovaTech</h1>
             <p className="text-muted-foreground text-lg">
               A modern technology blog focused on helping students in the tech field.
             </p>
@@ -19,7 +19,7 @@ const About = () => {
           {/* About content */}
           <div className="prose prose-lg max-w-none mb-12">
             <p>
-              Welcome to TechBlog, where we're passionate about making technology accessible and
+              Welcome to NovaTech, where we're passionate about making technology accessible and
               understandable for students and professionals alike. Our mission is to provide high-quality,
               in-depth articles that not only explain technical concepts but also show practical applications.
             </p>
@@ -33,7 +33,7 @@ const About = () => {
             
             <h2>Our Team</h2>
             <p>
-              TechBlog is powered by a team of passionate technology professionals, educators, and writers who
+              NovaTech is powered by a team of passionate technology professionals, educators, and writers who
               are committed to sharing their knowledge and experience with the community. Our contributors include:
             </p>
             <ul>

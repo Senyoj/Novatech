@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           <div className="space-y-4">
-            <h3 className="font-heading font-bold text-xl">TechBlog</h3>
+            <h3 className="font-heading font-bold text-xl">NovaTech</h3>
             <p className="text-muted-foreground text-sm">
               Modern insights and tutorials for students in the tech field.
             </p>
@@ -87,7 +87,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t mt-10 pt-6 text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} TechBlog. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} NovaTech. All rights reserved.</p>
         </div>
       </div>
     </footer>

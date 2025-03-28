@@ -19,10 +19,9 @@ const Navbar = () => {
       <div className="container flex h-16 items-center">
         <div className="mr-4 hidden md:flex">
           <Link to="/" className="mr-6 flex items-center space-x-2">
-            <span className="font-heading font-bold text-xl bg-gradient-to-r from-techpurple-600 to-techblue-600 text-transparent bg-clip-text">TechBlog</span>
+            <span className="font-heading font-bold text-xl bg-gradient-to-r from-techpurple-600 to-techblue-600 text-transparent bg-clip-text">NovaTech</span>
           </Link>
           <nav className="flex items-center space-x-6 text-sm font-medium">
-            <Link to="/" className="transition-colors hover:text-primary">Home</Link>
             <Link to="/category/web-development" className="transition-colors hover:text-primary">Web Dev</Link>
             <Link to="/category/artificial-intelligence" className="transition-colors hover:text-primary">AI</Link>
             <Link to="/category/cybersecurity" className="transition-colors hover:text-primary">Security</Link>
@@ -40,11 +39,10 @@ const Navbar = () => {
           </SheetTrigger>
           <SheetContent side="left" className="pr-0">
             <Link to="/" className="flex items-center">
-              <span className="font-heading font-bold text-xl">TechBlog</span>
+              <span className="font-heading font-bold text-xl">NovaTech</span>
             </Link>
             <div className="my-4">
               <div className="flex flex-col space-y-3">
-                <Link to="/" className="text-muted-foreground">Home</Link>
                 <Link to="/category/web-development" className="text-muted-foreground">Web Dev</Link>
                 <Link to="/category/artificial-intelligence" className="text-muted-foreground">AI</Link>
                 <Link to="/category/cybersecurity" className="text-muted-foreground">Security</Link>
